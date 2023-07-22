@@ -1,0 +1,199 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+header{
+    height: 56px;
+    background-color: rgb(218, 237, 228);
+}
+body{
+    background-color: rgb(205, 212, 239);
+}
+
+.navbar{
+     display:flex; 
+    background-color: rgb(34, 0, 255);
+    height:100%;
+    width: 100vw;
+    position:sticky;
+      
+     
+}
+i{
+     /* font-family: "Lugarismo";  */
+    color: white;
+    height: 0%;
+    width:4%;
+    display: flex; 
+    position: relative; 
+    top:27%; 
+    left: 11%;
+    
+     
+}
+
+#input{
+    height: 35px;
+    width: 350px;
+    margin: 9px auto 9px auto;
+    position:relative;
+    left:60%;
+    top: -1px;
+     /* border-radius: 6px; */
+     /* border-color: white; */
+     /* border:none; */
+     
+
+}
+ 
+/* .img { 
+    /* border:none; 
+    height: 35px;
+    width: 25px;
+    margin: 9px auto 9px auto;
+    border-color: white;
+    border:none;
+    position:relative;
+    top:-4px;
+    background-color: white;
+    left:0%; 
+
+} */
+
+#searchicon {
+    border:none;
+    box-sizing: border-box;
+    height:100;
+    width:100;
+     position:relative;
+    top:-4px;
+}
+    
+
+
+.login{
+    height: 35px;
+    width: 100px;
+    margin: 9px auto 9px auto;
+    position:relative;
+    left:-9%;
+    top: -4px;
+    border-color: white;
+    border: size 0 ;                                                                                                                                                                                                                                                                                                                    
+}
+.lnbutton{
+    height: 35px;
+    width: 100px;
+    margin: 9px auto 9px auto;
+    background-color:white;
+    position:relative;
+    left:0%;
+    top: -4px;
+    border-color: white;
+    border: size 0;
+}
+
+.container1{
+    display:flex;
+    flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center; 
+    height: 150px;
+    width:100vw;
+    background-color: white;
+    position:relative;
+    top:23px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.slide{
+
+    height: 240px;
+    width:100%;
+    /* background-color: white; */
+    display:flex;
+    align-items: center;
+    position: relative;
+    top: 38px;
+     background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/aa3ffec33d25334b.png?q=20"); 
+    background-size: 100% 100%;
+    animation:slider 9s  infinite linear 3s;
+
+}
+@keyframes slider {
+    0%{ background-color: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/aa3ffec33d25334b.png?q=20");}
+    50%{ background-image:url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/05cdea6dbe08c481.jpg?q=20"); }
+    100%{background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/ac46baf55211ff78.jpg?q=20");} 
+
+}
+.lef{
+    height:100%;
+    width:100%;
+}
+/* .left1{
+    height:500px;
+    width:100%; */
+    /* background-image: url {"https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90"}; */
+     /* display:flex;
+     display:relative;
+     top:12px;
+} */
+/* .right1{
+    height:500px;
+    width:100%; */
+    /* background-image: url {"https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90"};*/
+    /* display:flex;
+    display:relative;
+    justify-content: center;
+    top:5%;
+    
+}  */
+.product-container{
+    display:flex;
+    justify-content: space-around;
+    height:380px;
+    width:100%;
+    background-color:white;
+    box-shadow: 2px 2px 4px grey;
+    position:relative;
+    top: 54px;px;
+}
+.leftcontainer{
+    height: 100% ;
+    width:79%;
+    background-color: white;
+}
+.rightimg{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+.rightcontainer{
+    
+    height:100%;
+    width:19%;
+    padding:0.2em;
+    background-color: white;
+}
+.lefttop{
+    height:25%;
+    width: 100%;
+    background-color:white;
+    box-shadow: bottom grey;
+
+}
+.cards{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    box-sizing: border-box;
+    top:20%;
+}
+.pic01{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
